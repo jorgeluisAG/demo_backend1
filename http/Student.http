@@ -1,0 +1,29 @@
+POST http://localhost:8080/v1/student
+Content-Type: application/json
+
+{
+  "fullName" : "Jorge Luis"
+}
+
+###
+
+GET http://localhost:8080/v1/student/?id=2
+Content-Type: application/json
+
+###
+
+
+PUT http://localhost:8080/v1/student
+Content-Type: application/json
+
+{
+  "studentId": 2,
+"fullName" : "Jorge Luis Alejo"
+}
+
+###
+
+DELETE http://localhost:8080/v1/student/?id=1
+Content-Type: application/json
+
+###
